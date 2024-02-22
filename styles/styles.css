@@ -10,5 +10,6 @@
 /* Import Components */
 @import url(components/logo.css);
 @import url(components/main-header.css);
+@import url(components/post.css);
 
 /* Import Media Queries */
