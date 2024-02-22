@@ -1,0 +1,13 @@
+.pagination div {
+  padding: 2.9rem 2.6rem;
+}
+
+.pagination .btn {
+  border: none;
+
+  font-size: 1.8rem;
+  font-family: latoBold, serif;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #818181;
+}
