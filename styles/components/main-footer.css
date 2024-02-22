@@ -37,12 +37,6 @@
   transition: var(--color-transition);
 }
 
-.footer-nav-list li i {
-  color: var(--primary-1);
-
-  transition: var(--color-transition);
-}
-
 li.facebook:hover {
   background-color: rgb(68, 68, 247);
 }

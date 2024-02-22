@@ -1,5 +1,6 @@
 .pagination div {
   padding: 2.9rem 2.6rem;
+  border-inline: 1px solid var(--border-color);
 }
 
 .pagination .btn {
