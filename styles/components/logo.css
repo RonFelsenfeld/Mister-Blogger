@@ -1,0 +1,16 @@
+.logo {
+  font-family: eurofurence, serif;
+  font-size: 4rem;
+}
+
+.main-header .logo {
+  color: #ffffff;
+}
+
+.main-footer .logo {
+  color: #292929;
+}
+
+.logo-dot {
+  color: var(--secondary);
+}

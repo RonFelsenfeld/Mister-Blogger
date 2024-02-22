@@ -8,5 +8,7 @@
 @import url(basics/layout.css);
 
 /* Import Components */
+@import url(components/logo.css);
+@import url(components/main-header.css);
 
 /* Import Media Queries */

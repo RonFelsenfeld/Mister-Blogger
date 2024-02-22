@@ -1,0 +1,18 @@
+.main-layout {
+  display: grid;
+  grid-template-columns: minmax(255px, 1fr) 983px minmax(255px, 1fr);
+  row-gap: var(--main-grid-gap);
+}
+
+.main-layout > *:not(.full) {
+  grid-column: 2;
+}
+
+.main-layout > *.full {
+  grid-column: 1 / -1;
+}
+
+.post-layout {
+  display: grid;
+  /* grid-template-columns: ; */
+}

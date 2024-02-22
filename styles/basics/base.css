@@ -5,9 +5,14 @@
 }
 
 html {
-  font-family: lato, serif;
+  font-family: latoRegular, serif;
   /* To 10px, easier for me to remember */
   font-size: 0.625rem;
+  color: var(--primary-base);
+}
+
+body {
+  margin: 0;
 }
 
 h1,
@@ -20,4 +25,12 @@ p,
 a {
   margin: 0;
   padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  /* color: var(--primary-3); */
 }
