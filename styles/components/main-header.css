@@ -1,3 +1,23 @@
 .main-header {
+  height: 133px;
   background-color: RGBA(41, 41, 41, 1);
+  box-shadow: inset -1px -6px 0 black;
+}
+
+.main-nav-list li {
+  text-align: center;
+  border-inline: 1px solid black;
+  width: 135px;
+}
+
+.main-nav-list a {
+  font-size: 1.6rem;
+  color: var(--primary-3);
+
+  transition: 0.4s;
+}
+
+.main-nav-list a:hover,
+.main-nav-list a:active {
+  color: var(--secondary);
 }

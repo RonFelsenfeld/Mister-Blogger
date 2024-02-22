@@ -32,5 +32,5 @@ img {
 }
 
 a {
-  /* color: var(--primary-3); */
+  text-decoration: none;
 }
