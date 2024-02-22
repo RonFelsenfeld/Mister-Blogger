@@ -5,8 +5,6 @@
 }
 
 .main-nav-list li {
-  justify-content: center;
-
   width: 135px;
   height: 133px;
 
@@ -29,7 +27,7 @@
 
 .main-nav-list a {
   font-size: 1.6rem;
-  color: var(--primary-3);
+  color: var(--primary-1);
 
   transition: var(--color-transition);
 }
