@@ -12,8 +12,8 @@
 }
 
 .posts-layout {
-  flex-direction: column;
-  gap: var(--posts-gap);
+  display: grid;
+  row-gap: var(--posts-gap);
 
   padding-block: var(--posts-gap);
   border-inline: 1px solid var(--border-color);
