@@ -3,6 +3,7 @@
   --primary-base: #606060;
   --primary--1: ##4f4e4e;
   --secondary: #58c93a;
+  --border-color: RGBA(248, 248, 248, 1);
 
   --posts-gap: 80px;
   --color-transition: 0.4s;

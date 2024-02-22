@@ -1,0 +1,62 @@
+.main-footer {
+  flex-direction: column;
+
+  height: 318px;
+
+  padding-block: 8.2rem;
+  border-block-start: 1px solid var(--border-color);
+
+  background-color: RGBA(248, 248, 248, 1);
+}
+
+.footer-text {
+  margin-block-end: 3.8rem;
+
+  font-size: 1.3rem;
+  color: #a6a6a6;
+}
+
+.footer-nav-list {
+  gap: 1.7rem;
+}
+
+.footer-nav-list li {
+  justify-content: center;
+
+  width: 43px;
+  height: 43px;
+
+  color: var(--primary-3);
+  background: RGBA(229, 229, 229, 1);
+
+  transition: var(--color-transition);
+  cursor: pointer;
+}
+
+.footer-nav-list li i {
+  color: var(--primary-3);
+
+  transition: var(--color-transition);
+}
+
+.footer-nav-list li i {
+  color: var(--primary-3);
+
+  transition: var(--color-transition);
+}
+
+li.facebook:hover {
+  background-color: rgb(68, 68, 247);
+}
+
+li.twitter:hover {
+  background-color: rgb(88, 221, 251);
+}
+
+li.behance:hover {
+  background-color: rgb(20, 44, 204);
+}
+
+li.basketball:hover {
+  background-color: rgb(227, 140, 78);
+}

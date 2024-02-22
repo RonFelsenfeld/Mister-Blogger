@@ -16,5 +16,6 @@
   gap: var(--posts-gap);
 
   padding-block: var(--posts-gap);
-  border-inline: 1px solid RGBA(225, 224, 224, 1);
+  border-inline: 1px solid var(--border-color);
+  border-block-end: 1px solid var(--border-color);
 }

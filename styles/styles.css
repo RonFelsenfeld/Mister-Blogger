@@ -11,5 +11,6 @@
 @import url(components/logo.css);
 @import url(components/main-header.css);
 @import url(components/post.css);
+@import url(components/main-footer.css);
 
 /* Import Media Queries */
