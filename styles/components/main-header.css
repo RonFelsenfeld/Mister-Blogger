@@ -17,12 +17,9 @@
   border-inline-start: 1px solid black;
 }
 
-.main-nav-list li:hover {
+.main-nav-list li:hover,
+.main-nav-list li.selected {
   box-shadow: inset 0 -6px 0 var(--secondary);
-}
-
-.main-nav-list li:hover a {
-  color: var(--secondary);
 }
 
 .main-nav-list a {
@@ -30,4 +27,9 @@
   color: var(--primary-1);
 
   transition: var(--color-transition);
+}
+
+.main-nav-list li:hover a,
+.main-nav-list li.selected a {
+  color: var(--secondary);
 }
