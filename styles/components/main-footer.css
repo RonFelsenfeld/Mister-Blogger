@@ -31,24 +31,13 @@
   cursor: pointer;
 }
 
+li:hover {
+  background-color: RGBA(81, 111, 173, 1);
+}
+
 .footer-nav-list li i {
+  font-size: 1.6rem;
   color: var(--primary-1);
 
   transition: var(--color-transition);
-}
-
-li.facebook:hover {
-  background-color: rgb(68, 68, 247);
-}
-
-li.twitter:hover {
-  background-color: rgb(88, 221, 251);
-}
-
-li.behance:hover {
-  background-color: rgb(20, 44, 204);
-}
-
-li.basketball:hover {
-  background-color: rgb(227, 140, 78);
 }
