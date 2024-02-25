@@ -13,3 +13,8 @@ body.menu-open .menu-backdrop {
   opacity: 1;
   pointer-events: auto;
 }
+
+/* When the menu is open, the links are still clickable because of the of the pointer events on the backdrop */
+.body.menu-open a {
+  pointer-events: none;
+}
