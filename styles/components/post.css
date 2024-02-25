@@ -1,12 +1,16 @@
 .post {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr auto;
   grid-template-areas:
-    'image title'
-    'image text'
-    'image btn';
-  column-gap: 40px;
+    'image'
+    'title'
+    'text'
+    'btn';
+}
+
+.post {
+  row-gap: 2rem;
 }
 
 .post .post-img {
@@ -28,6 +32,8 @@
   grid-area: text;
   flex-direction: column;
   justify-content: space-around;
+
+  gap: 1em;
 }
 
 .post .card-text {

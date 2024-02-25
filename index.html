@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
 
-  <body class="main-layout">
+  <body class="main-layout menu-open">
+    <div class="menu-backdrop" onclick="onToggleMenu()"></div>
+
     <header class="main-header full main-layout">
       <div class="flex align-center space-between">
         <div class="logo">Blogin<span class="logo-dot">.</span></div>
@@ -35,6 +37,8 @@
             </li>
           </ul>
         </nav>
+
+        <button class="btn-menu" onclick="onToggleMenu()">☰</button>
       </div>
     </header>
 
