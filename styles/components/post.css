@@ -1,13 +1,22 @@
 .post {
-  gap: 43px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'image title'
+    'image text'
+    'image btn';
+  column-gap: 40px;
 }
 
-.post div {
-  padding-inline-end: 26px;
+.post .post-img {
+  grid-area: image;
+  height: 100%;
+  object-fit: cover;
 }
 
-.card-title {
-  margin-block-end: 6rem;
+.post .card-title {
+  grid-area: title;
 
   font-size: 2.8rem;
   font-family: latoBold, serif;
@@ -15,19 +24,19 @@
   color: var(--primary--1);
 }
 
-.card-text {
+.post .card-text-container {
+  grid-area: text;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.post .card-text {
   font-size: 1.6rem;
 }
 
-.card-text {
-  margin-block-end: 3.2rem;
-}
-
-.card-text:last-of-type {
-  margin-block-end: 4.6rem;
-}
-
-.btn-read {
+.post .btn-read {
+  grid-area: btn;
+  align-self: end;
   position: relative;
 
   width: 189px;
@@ -44,14 +53,14 @@
   transition: var(--color-transition);
 }
 
-.btn-read:hover {
+.post .btn-read:hover {
   width: 21.3rem;
 
   color: var(--secondary);
   border: 2px solid var(--secondary);
 }
 
-.btn-read::after {
+.post .btn-read::after {
   content: '→';
 
   opacity: 0;
@@ -63,6 +72,6 @@
   transition: 500ms;
 }
 
-.btn-read:hover::after {
+.post .btn-read:hover::after {
   opacity: 1;
 }

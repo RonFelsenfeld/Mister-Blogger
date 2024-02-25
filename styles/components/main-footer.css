@@ -31,7 +31,7 @@
   cursor: pointer;
 }
 
-li:hover {
+.main-footer li:hover {
   background-color: RGBA(81, 111, 173, 1);
 }
 

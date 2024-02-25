@@ -1,0 +1,21 @@
+@media (max-width: 1020px) {
+  .main-layout {
+    grid-template-columns: minmax(50px, 1fr) minmax(auto, 920px) minmax(
+        50px,
+        1fr
+      );
+  }
+
+  .main-nav-list li {
+    width: 150px;
+    height: 110px;
+  }
+
+  .post {
+    row-gap: 2rem;
+  }
+
+  .post .card-text-container {
+    gap: 1em;
+  }
+}
