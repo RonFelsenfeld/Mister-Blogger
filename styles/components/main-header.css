@@ -4,9 +4,6 @@
 }
 
 .main-nav-list li {
-  width: 100px;
-  height: 133px;
-
   transition: var(--color-transition);
 }
 
@@ -15,7 +12,10 @@
   box-shadow: inset 0 -6px 0 var(--secondary);
 }
 
-.main-nav-list a {
+.main-nav-list li > a {
+  width: 100px;
+  height: 133px;
+
   font-size: 1.6rem;
   color: var(--primary-1);
 
