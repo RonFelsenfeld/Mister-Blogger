@@ -9,6 +9,11 @@
   transition: opacity 0.6s;
 }
 
+/* Prevent scrolling when menu is open */
+body.menu-open {
+  overflow-y: hidden;
+}
+
 body.menu-open .menu-backdrop {
   opacity: 1;
   pointer-events: auto;

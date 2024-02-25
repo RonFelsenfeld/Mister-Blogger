@@ -8,7 +8,6 @@ html {
   font-family: latoRegular, serif;
   /* To 10px, easier for me to remember */
   font-size: 0.625rem;
-  color: var(--primary-base);
 }
 
 body {

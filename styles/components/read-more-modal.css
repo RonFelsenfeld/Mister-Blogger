@@ -22,7 +22,7 @@
   padding: 3em;
 }
 
-.read-more-dialog .read-more-content .btn-close-modal {
+.read-more-content .btn-close-modal {
   position: absolute;
   inset: 1px 1px auto auto;
   border-radius: 50%;
