@@ -34,8 +34,3 @@ function onSignUp() {
   // Don't do nothing for now
   onCloseModal()
 }
-
-function onOpenDropdown(el) {
-  const elDropdown = el.querySelector('.dropdown')
-  elDropdown.classList.toggle('show')
-}

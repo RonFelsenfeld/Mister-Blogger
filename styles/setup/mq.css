@@ -57,11 +57,14 @@
   }
 
   .main-nav-list li > a {
-    width: 135px;
+    width: 150px;
+    height: 110px;
+
     border-inline-end: 1px solid black;
   }
 
-  .main-nav-list li > a:first-of-type {
+  /* Selecting the first link in the first li */
+  .main-nav-list li:first-of-type > a:first-of-type {
     border-inline-start: 1px solid black;
   }
 
@@ -79,11 +82,6 @@
     height: 100%;
   }
 
-  .main-nav-list li > a {
-    width: 150px;
-    height: 110px;
-  }
-
   .btn-menu {
     display: none;
   }
@@ -92,6 +90,8 @@
     font-size: 1.3rem;
   }
 }
+
+/* Large */
 
 @media (min-width: 1020px) {
   .main-layout {

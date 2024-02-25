@@ -56,13 +56,8 @@
   transition: all 0.2s;
 }
 
-.dropdown-container:hover .dropdown {
-  visibility: visible;
-  pointer-events: auto;
-  opacity: 1;
-}
-
-.dropdown.show {
+.dropdown-container:hover .dropdown,
+.dropdown-container:focus .dropdown {
   visibility: visible;
   pointer-events: auto;
   opacity: 1;
