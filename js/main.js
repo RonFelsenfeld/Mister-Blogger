@@ -24,6 +24,9 @@ function onReadMore() {
 
 function onCloseModal() {
   const elReadModal = document.querySelector('.read-more-dialog')
+  const elForm = elReadModal.querySelector('form')
+
+  elForm.reset()
   elReadModal.close()
 }
 

@@ -34,8 +34,16 @@
     border: none;
   }
 
-  .read-more-dialog .read-more-title {
-    font-size: 1.7em;
+  .read-more-dialog .read-more-content {
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+  }
+
+  .read-more-content .read-more-title {
+    font-size: 4em;
+    text-align: center;
   }
 }
 
