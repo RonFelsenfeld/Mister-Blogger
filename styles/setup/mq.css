@@ -33,6 +33,10 @@
     width: 70vw;
     border: none;
   }
+
+  .read-more-dialog .read-more-title {
+    font-size: 1.7em;
+  }
 }
 
 /* Medium */

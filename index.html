@@ -86,7 +86,9 @@
           </p>
         </div>
 
-        <button class="btn-read">Continue Reading</button>
+        <button class="btn-read" onclick="onReadMore()">
+          Continue Reading
+        </button>
       </article>
 
       <article class="post">
@@ -108,7 +110,9 @@
           </p>
         </div>
 
-        <button class="btn-read">Continue Reading</button>
+        <button class="btn-read" onclick="onReadMore()">
+          Continue Reading
+        </button>
       </article>
     </main>
 
@@ -145,14 +149,16 @@
       </nav>
     </footer>
 
-    <dialog open class="read-more-dialog">
+    <dialog class="read-more-dialog">
       <div class="read-more-content flex align-center">
-        <button type="button" class="btn-close-modal">X</button>
+        <button type="button" class="btn-close-modal" onclick="onCloseModal()">
+          X
+        </button>
         <h3 class="read-more-title">
           Join us to get access to the latest stories!
         </h3>
 
-        <form method="dialog" class="input-container">
+        <form method="dialog" class="input-container" onsubmit="onSignUp()">
           <div>
             <label for="email-input">Email</label>
             <input type="email" name="email-input" />

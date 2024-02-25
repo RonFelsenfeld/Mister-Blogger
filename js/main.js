@@ -21,3 +21,13 @@ function onReadMore() {
   const elReadModal = document.querySelector('.read-more-dialog')
   elReadModal.showModal()
 }
+
+function onCloseModal() {
+  const elReadModal = document.querySelector('.read-more-dialog')
+  elReadModal.close()
+}
+
+function onSignUp() {
+  // Don't do nothing for now
+  onCloseModal()
+}
