@@ -71,6 +71,10 @@
   .btn-menu {
     display: none;
   }
+
+  .main-footer .footer-text {
+    font-size: 1.3rem;
+  }
 }
 
 @media (min-width: 1020px) {
