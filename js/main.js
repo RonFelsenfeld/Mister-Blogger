@@ -16,3 +16,8 @@ function onToggleMenu() {
   const str = document.body.classList.contains('menu-open') ? 'X' : '☰'
   elMenuBtn.innerText = str
 }
+
+function onReadMore() {
+  const elReadModal = document.querySelector('.read-more-dialog')
+  elReadModal.showModal()
+}

@@ -14,6 +14,7 @@
 @import url(components/post.css);
 @import url(components/pagination.css);
 @import url(components/main-footer.css);
+@import url(components/read-more-modal.css);
 
 /* Import Media Queries */
 @import url(setup/mq.css);

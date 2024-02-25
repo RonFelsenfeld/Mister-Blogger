@@ -1,0 +1,63 @@
+.read-more-dialog {
+  background-color: wheat;
+  padding: 0;
+}
+
+.read-more-dialog::backdrop {
+  background-color: rgba(149, 149, 149, 0.707);
+  backdrop-filter: blur(3px);
+}
+
+.read-more-dialog .read-more-content {
+  flex-direction: column;
+  gap: 2em;
+
+  position: relative;
+  padding: 3em;
+}
+
+.read-more-dialog .read-more-content .btn-close-modal {
+  position: absolute;
+  inset: 1px 1px auto auto;
+  border-radius: 50%;
+}
+
+.read-more-dialog .read-more-title {
+  font-size: 2em;
+  font-family: Lato, serif;
+  font-weight: bold;
+}
+
+.read-more-dialog .input-container div {
+  margin-block-end: 2em;
+}
+
+.read-more-content label {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-inline-end: 0.5em;
+}
+
+.read-more-content input {
+  font-size: 1.6em;
+  border-radius: 5px;
+  padding: 0.2em;
+}
+
+.btn-sign-up {
+  display: block;
+  margin-inline: auto;
+  padding: 1em 2em;
+  border-radius: 2em;
+  border: 2px solid rgb(103, 155, 173);
+
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: rgb(169, 226, 255);
+  transition: all 0.4s;
+}
+
+.btn-sign-up:hover {
+  background-color: rgb(85, 140, 167);
+  scale: 1.2;
+}
