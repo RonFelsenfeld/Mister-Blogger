@@ -1,12 +1,12 @@
 /* Mobile only */
 @media (max-width: 760px) {
   .main-header {
-    padding-block: 1.5em;
+    height: 60px;
   }
 
-  .main-nav {
+  .main-header .main-nav {
     position: fixed;
-    top: 10%;
+    top: 60px;
     left: 50%;
 
     height: 100dvh;
