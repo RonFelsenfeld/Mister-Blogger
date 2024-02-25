@@ -1,6 +1,7 @@
 /* Impoty Setup */
 @import url(setup/vars.css);
 @import url(setup/typography.css);
+@import url(setup/animations.css);
 
 /* Import Basics */
 @import url(basics/base.css);
