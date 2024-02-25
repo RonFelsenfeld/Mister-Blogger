@@ -63,6 +63,10 @@
     column-gap: 40px;
   }
 
+  .post .post-img {
+    height: 100%;
+  }
+
   .main-nav-list li {
     width: 150px;
     height: 110px;
