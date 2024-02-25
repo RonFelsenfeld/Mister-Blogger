@@ -1,3 +1,23 @@
+@media (max-width: 760px) {
+  .main-layout {
+    grid-template-columns: minmax(20px, 1fr) minmax(auto, 720px) minmax(
+        20px,
+        1fr
+      );
+  }
+
+  .post {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas:
+      'image'
+      'title'
+      'text'
+      'btn';
+  }
+}
+
+/* Medium */
 @media (max-width: 1020px) {
   .main-layout {
     grid-template-columns: minmax(50px, 1fr) minmax(auto, 920px) minmax(
