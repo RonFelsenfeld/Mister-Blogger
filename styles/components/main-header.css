@@ -22,7 +22,55 @@
   transition: var(--color-transition);
 }
 
-.main-nav-list li:hover a,
-.main-nav-list li.selected a {
+.main-nav-list li:hover > a,
+.main-nav-list li.selected > a {
   color: var(--secondary);
+}
+
+/* ////////////////////////////////////////////////////  */
+
+/* Dropdown */
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown {
+  flex-direction: column;
+  gap: 5px;
+
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+
+  position: absolute;
+  top: 100%;
+
+  width: 100%;
+  padding-block: 2em;
+  border-radius: 0 0 20px 20px;
+
+  background-color: rgb(138, 138, 138);
+  box-shadow: 1px 4px 10px 4px #696060;
+
+  transition: all 0.2s;
+}
+
+.dropdown-container:hover .dropdown {
+  visibility: visible;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.dropdown.show {
+  visibility: visible;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.dropdown a {
+  display: block;
+  text-align: center;
+  color: black;
+  font-family: LatoBold;
 }

@@ -23,8 +23,17 @@
 
         <nav class="main-nav">
           <ul class="main-nav-list clean-list flex align-center">
-            <li class="flex align-center justify-center">
+            <li
+              class="dropdown-container flex align-center justify-center"
+              onclick="onOpenDropdown()"
+            >
               <a href="#" onclick="onLinkSelected(this)">Journal</a>
+              <div class="dropdown flex">
+                <a href="#">October 2016</a>
+                <a href="#">January 2017</a>
+                <a href="#">April 2017</a>
+                <a href="#">July 2017</a>
+              </div>
             </li>
             <li class="flex align-center justify-center">
               <a href="#" onclick="onLinkSelected(this)">About</a>
